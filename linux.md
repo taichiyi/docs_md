@@ -1,6 +1,7 @@
+![Linux-logo](http://oop4q34sz.bkt.clouddn.com/128px-Tux.png)
+
 # Linux
 
-![Linux-logo](http://oop4q34sz.bkt.clouddn.com/128px-Tux.png)
 
 [pwd](#pwd) [cd](#cd) [ls](#ls) [mkdir](#mkdir)
 
