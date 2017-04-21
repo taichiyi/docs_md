@@ -2,7 +2,7 @@
 
 # git
 
-[clone](#clone) [remote](#remote) [fetch](#fetch)
+[clone](#clone) [remote](#remote) [fetch](#fetch) [pull](#pull) [push](#push)
 
 ![pic](http://oop4q34sz.bkt.clouddn.com/bg2014061202.jpg)
 
