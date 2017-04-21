@@ -1,4 +1,4 @@
-![Linux-logo](http://oop4q34sz.bkt.clouddn.com/128px-Tux.png)
+![logo](http://oop4q34sz.bkt.clouddn.com/128px-Tux.png)
 
 # Linux
 
