@@ -2,7 +2,7 @@
 
 # git
 
-[clone](#clone) [remote](#remote) [fetch](#fetch) [pull](#pull) [push](#push)
+[clone](#clone) [remote](#remote) [fetch](#fetch) [pull](#pull) [push](#push) [config](#config)
 
 ![pic](http://oop4q34sz.bkt.clouddn.com/bg2014061202.jpg)
 
@@ -155,7 +155,7 @@ $ git pull origin next
 
 ## push
 
-推回本地
+推出本地
 
 `git push`命令用于将本地分支的更新，推送到远程主机。它的格式与`git pull`命令相仿。
 
@@ -199,6 +199,60 @@ $ git push --all origin
 如果远程主机的版本比本地版本更新，推送时Git会报错，要求先在本地做git pull合并差异，然后再推送到远程主机。这时，如果你一定要推送，可以使用--force选项。
 ```
 $ git push --force origin
+```
+
+
+## config
+
+配置 git
+
+### 语法
+```Bash
+git config [<file-option>] [type] [--show-origin] [-z|--null] name [value [value_regex]]
+git config [<file-option>] [type] --add name value
+git config [<file-option>] [type] --replace-all name value [value_regex]
+git config [<file-option>] [type] [--show-origin] [-z|--null] --get name [value_regex]
+git config [<file-option>] [type] [--show-origin] [-z|--null] --get-all name [value_regex]
+git config [<file-option>] [type] [--show-origin] [-z|--null] [--name-only] --get-regexp name_regex [value_regex]
+git config [<file-option>] [type] [-z|--null] --get-urlmatch name URL
+git config [<file-option>] --unset name [value_regex]
+git config [<file-option>] --unset-all name [value_regex]
+git config [<file-option>] --rename-section old_name new_name
+git config [<file-option>] --remove-section name
+git config [<file-option>] [--show-origin] [-z|--null] [--name-only] -l | --list
+git config [<file-option>] --get-color name [default]
+git config [<file-option>] --get-colorbool name [stdout-is-tty]
+git config [<file-option>] -e | --edit
+```
+
+### 实例
+
+我们知道我们执行的一些Git命令其实操作很频繁的类似有：
+
+```
+git status
+git add
+git commit
+git checkout
+git branch
+```
+
+这些操作非常频繁，每次都要输入完全是不是有点麻烦，有没有一种简单的缩写输入呢？比如我对应的直接输入以下：
+
+```
+git status      =>    git s
+git add         =>    git a
+git commit      =>    git c
+git checkout    =>    git co
+git branch      =>    git br
+```
+
+对应配置如下:
+
+```
+git config --global alias.s status
+git config --global alias.a add
+git config --global alias.c commit
 ```
 
 

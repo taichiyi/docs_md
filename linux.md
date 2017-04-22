@@ -25,10 +25,10 @@ which [选项] [参数]
 
 ### 实例
 ```Bash
-*]$ which pwd
+$ which pwd
 /bin/pwd
 
-*]$ which adduser
+$ which adduser
 /usr/sbin/adduser
 ```
 
@@ -51,11 +51,11 @@ cd [选项] [参数]
 
 ### 实例
 ```Bash
-*]$ cd ~  进入用户主目录;
-*]$ cd -  返回进入此目录之前所在的目录;
-*]$ cd ..  返回上级目录（若当前目录为"/"，则执行完后还在"/";".."为上级目录的意思）;
-*]$ cd ../..  返回上两级目录;
-*]$ cd !$  把上个命令的参数作为cd参数使用。
+$ cd ~  进入用户主目录;
+$ cd -  返回进入此目录之前所在的目录;
+$ cd ..  返回上级目录（若当前目录为"/"，则执行完后还在"/";".."为上级目录的意思）;
+$ cd ../..  返回上两级目录;
+$ cd !$  把上个命令的参数作为cd参数使用。
 ```
 
 
@@ -97,10 +97,10 @@ ls [选项] [参数]
 
 ### 实例
 ```Bash
-*]$ ls       # 仅列出当前目录可见文件
-*]$ ls -l    # 列出当前目录可见文件详细信息
-*]$ ls -hl   # 列出详细信息并以可读大小显示文件大小
-*]$ ls -al   # 列出所有文件（包括隐藏）的详细信息
+$ ls       # 仅列出当前目录可见文件
+$ ls -l    # 列出当前目录可见文件详细信息
+$ ls -hl   # 列出详细信息并以可读大小显示文件大小
+$ ls -al   # 列出所有文件（包括隐藏）的详细信息
 ```
 
 
@@ -131,13 +131,13 @@ mkdir [选项] [参数]
 在目录/usr/meng下建立子目录test，并且只有文件主有读、写和执行权限，其他人无权访问
 
 ```Bash
-*]$ mkdir -m 700 /usr/meng/test
+$ mkdir -m 700 /usr/meng/test
 ```
 
 在当前目录中建立bin和bin下的os_1目录，权限设置为文件主可读、写、执行，同组用户可读和执行，其他用户无权访问
 
 ```Bash
-*]$ mkdir -p-m 750 bin/os_1
+$ mkdir -p-m 750 bin/os_1
 ```
 
 
@@ -169,7 +169,7 @@ touch [选项] [参数]
 在当前目录下建立一个空文件ex2，然后，利用`ls -l`命令可以发现文件ex2的大小为0，表示它是空文件。
 
 ```Bash
-*]$ touch ex2
+$ touch ex2
 ```
 
 
@@ -199,10 +199,10 @@ wc [选项] [参数]
 在当前目录下建立一个空文件ex2，然后，利用`ls -l`命令可以发现文件ex2的大小为0，表示它是空文件。
 
 ```Bash
-*]$ wc -l *       # 统计当前目录下的所有文件行数
-*]$ wc -l *.js    # 统计当前目录下的所有 .js 后缀的文件行数
-*]$ find  . * | xargs wc -l # 当前目录以及子目录的所有文件行数 
-*]$ wc test.txt   # 查看文件的字节数、字数、行数
+$ wc -l *       # 统计当前目录下的所有文件行数
+$ wc -l *.js    # 统计当前目录下的所有 .js 后缀的文件行数
+$ find  . * | xargs wc -l # 当前目录以及子目录的所有文件行数 
+$ wc test.txt   # 查看文件的字节数、字数、行数
 ```
 
 
@@ -233,9 +233,9 @@ cat [选项] [参数]
 设ml和m2是当前目录下的两个文件
 
 ```Bash
-*]$ cat m1 （在屏幕上显示文件ml的内容）
-*]$ cat m1 m2 （同时显示文件ml和m2的内容）
-*]$ cat m1 m2 > file （将文件ml和m2合并后放入文件file中）
+$ cat m1 （在屏幕上显示文件ml的内容）
+$ cat m1 m2 （同时显示文件ml和m2的内容）
+$ cat m1 m2 > file （将文件ml和m2合并后放入文件file中）
 ```
 
 
@@ -265,9 +265,9 @@ rm [选项] [参数]
 交互式删除当前目录下的文件test和example
 
 ```Bash
-*]$ rm -i test example
-*]$ Remove test ?n（不删除文件test)
-*]$ Remove example ?y（删除文件example)
+$ rm -i test example
+$ Remove test ?n（不删除文件test)
+$ Remove example ?y（删除文件example)
 ```
 
 
@@ -305,13 +305,13 @@ mv [选项] [参数]
 将文件ex3改名为new1
 
 ```Bash
-*]$ mv ex3 new1
+$ mv ex3 new1
 ```
 
 将目录`/usr/men`中的所有文件移到当前目录（用`.`表示）中：
 
 ```Bash
-*]$ mv /usr/men/* .
+$ mv /usr/men/* .
 ```
 
 
@@ -347,13 +347,13 @@ cp [选项] [参数]
 将目录`/usr/men`下的所有文件及其子目录复制到目录`/usr/zh`中
 
 ```Bash
-*]$ cp -r /usr/men /usr/zh
+$ cp -r /usr/men /usr/zh
 ```
 
 交互式地将目录`/usr/men`中的以m打头的所有.c文件复制到目录`/usr/zh`中
 
 ```Bash
-*]$ cp -i /usr/men m*.c /usr/zh
+$ cp -i /usr/men m*.c /usr/zh
 ```
 
 
