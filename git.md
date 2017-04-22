@@ -233,6 +233,7 @@ git config [<file-option>] -e | --edit
 git status
 git add
 git commit
+git push
 git checkout
 git branch
 ```
@@ -243,6 +244,7 @@ git branch
 git status      =>    git s
 git add         =>    git a
 git commit      =>    git c
+git push        =>    git p
 git checkout    =>    git co
 git branch      =>    git br
 ```
@@ -253,6 +255,17 @@ git branch      =>    git br
 git config --global alias.s status
 git config --global alias.a add
 git config --global alias.c commit
+git config --global alias.p push
 ```
 
+当然以上别名不是固定的，你完全可以根据自己的习惯去定制，除此之外还可以设置组合，比如：
 
+```
+git push origin master  =>  git pom
+```
+
+对应配置如下:
+
+```
+git config --global alias.pom 'push origin master'
+```
