@@ -238,7 +238,7 @@ git checkout
 git branch
 ```
 
-这些操作非常频繁，每次都要输入完全是不是有点麻烦，有没有一种简单的缩写输入呢？比如我对应的直接输入以下：
+这些操作非常频繁，每次都要输入完全是不是有点麻烦，有没有一种简单的缩写输入呢？完整输入 => 缩写输入：
 
 ```
 git status      =>    git s
@@ -256,6 +256,8 @@ git config --global alias.s status
 git config --global alias.a add
 git config --global alias.c commit
 git config --global alias.p push
+git config --global alias.co checkout
+git config --global alias.br branch
 ```
 
 当然以上别名不是固定的，你完全可以根据自己的习惯去定制，除此之外还可以设置组合，比如：
@@ -269,3 +271,8 @@ git push origin master  =>  git pom
 ```
 git config --global alias.pom 'push origin master'
 ```
+
+
+## 参考链接
+[http://stormzhang.com/github/2016/06/16/learn-github-from-zero5/](http://stormzhang.com/github/2016/06/16/learn-github-from-zero5/)
+[http://www.ruanyifeng.com/blog/2014/06/git_remote.html](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
