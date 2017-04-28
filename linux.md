@@ -378,5 +378,5 @@ $ cp -i /usr/men m*.c /usr/zh
 
 
 ## 参考链接
-[http://man.linuxde.net/](http://man.linuxde.net/)
-[https://jaywcjlove.github.io/linux-command/](https://jaywcjlove.github.io/linux-command/)
+[http://man.linuxde.net/](http://man.linuxde.net/)  
+[https://jaywcjlove.github.io/linux-command/](https://jaywcjlove.github.io/linux-command/)  
