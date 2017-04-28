@@ -124,5 +124,5 @@ $ npm update -g gulp
 ```
 
 ## 参考链接
-[https://docs.npmjs.com/](https://docs.npmjs.com/)
-[http://javascript.ruanyifeng.com/nodejs/npm.html](http://javascript.ruanyifeng.com/nodejs/npm.html)
+> [https://docs.npmjs.com/](https://docs.npmjs.com/)
+> [http://javascript.ruanyifeng.com/nodejs/npm.html](http://javascript.ruanyifeng.com/nodejs/npm.html)
