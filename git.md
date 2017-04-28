@@ -252,12 +252,12 @@ git branch      =>    git br
 对应配置如下:
 
 ```
-git config --global alias.s status
-git config --global alias.a add
-git config --global alias.c commit
-git config --global alias.p push
-git config --global alias.co checkout
-git config --global alias.br branch
+$ git config --global alias.s status
+$ git config --global alias.a add
+$ git config --global alias.c commit
+$ git config --global alias.p push
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
 ```
 
 当然以上别名不是固定的，你完全可以根据自己的习惯去定制，除此之外还可以设置组合，比如：
@@ -269,7 +269,7 @@ git push origin master  =>  git pom
 对应配置如下:
 
 ```
-git config --global alias.pom 'push origin master'
+$ git config --global alias.pom 'push origin master'
 ```
 
 

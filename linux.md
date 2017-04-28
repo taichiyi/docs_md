@@ -3,14 +3,34 @@
 # Linux
 
 
-[pwd](#pwd) [cd](#cd) [ls](#ls) [mkdir](#mkdir) [touch](#touch) [wc](#wc) [cat](#cat) [rm](#rm) [mv](#mv) [cp](#cp)
+[pwd](#pwd) [which](#which) [cd](#cd) [ls](#ls) [mkdir](#mkdir) [touch](#touch) [wc](#wc) [cat](#cat) [rm](#rm) [mv](#mv) [cp](#cp)
 
 
 ## pwd
 
 绝对路径方式显示用户当前工作目录
 
-pwd命令以绝对路径的方式显示用户当前工作目录。命令将当前目录的全路径名称（从根目录）写入标准输出。全部目录使用/分隔。第一个/表示根目录，最后一个目录是当前目录。执行pwd命令可立刻得知您目前所在的工作目录的绝对路径名称。
+pwd命令 以绝对路径的方式显示用户当前工作目录。命令将当前目录的全路径名称（从根目录）写入标准输出。全部目录使用/分隔。第一个/表示根目录，最后一个目录是当前目录。执行pwd命令可立刻得知您目前所在的工作目录的绝对路径名称。
+
+### 语法
+pwd [选项]
+
+- 选项
+  - --help：显示帮助信息；
+  - --version：显示版本信息。
+
+### 实例
+```Bash
+$ pwd
+/root
+```
+
+
+## which
+
+查找并显示给定命令的绝对路径
+
+which命令 用于查找并显示给定命令的绝对路径，环境变量PATH中保存了查找命令时需要遍历的目录。which指令会在环境变量$PATH设置的目录里查找符合条件的文件。也就是说，使用which命令，就可以看到某个系统命令是否存在，以及执行的到底是哪一个位置的命令。
 
 ### 语法
 which [选项] [参数]
@@ -359,3 +379,4 @@ $ cp -i /usr/men m*.c /usr/zh
 
 ## 参考链接
 [http://man.linuxde.net/](http://man.linuxde.net/)
+[https://jaywcjlove.github.io/linux-command/](https://jaywcjlove.github.io/linux-command/)
