@@ -3,7 +3,7 @@
 # APICloud-Modules
 
 
-[UIInput](#UIInput "输入框模块，开发者可通过配置相应参数来控制输入框自动获取焦点，并弹出键盘。") [UIListView](#UIListView "可以侧滑滚动的列表模块") [UIChatBox](#UIChatBox "聊天输入框模块")  [UIMediaScanner](#UIMediaScanner "本地媒体资源扫描器") [UIMultiSelector](#UIMultiSelector "支持多选的选择器") [UISearchBar](#UISearchBar "独立的搜索页面") [UICalendar](#UICalendar "日历选择模块") [UIPullRefresh](#UIPullRefresh "下拉刷新模块") [NVTabBar](#NVTabBar "一个底部导航条模块") [FNScanner](#FNScanner "二维码/条形码扫描器") [imageFilter](#imageFilter "封装了对图片按照指定效果过滤的功能") [photoBrowser](#photoBrowser "图片浏览器") [ble](#ble "蓝牙4.0模块") [pedometer](#pedometer "手机计步器模块") [aMap](#aMap "高德地图模块") [bMap](#bMap "百度地图模块") 
+[UIInput](#uiinput "输入框模块，开发者可通过配置相应参数来控制输入框自动获取焦点，并弹出键盘。") [UIListView](#uilistview "可以侧滑滚动的列表模块") [UIChatBox](#uichatbox "聊天输入框模块")  [UIMediaScanner](#uimediascanner "本地媒体资源扫描器") [UIMultiSelector](#uimultiselector "支持多选的选择器") [UISearchBar](#uisearchbar "独立的搜索页面") [UICalendar](#uicalendar "日历选择模块") [UIPullRefresh](#uipullrefresh "下拉刷新模块") [NVTabBar](#nvtabbar "一个底部导航条模块") [FNScanner](#fnscanner "二维码/条形码扫描器") [imageFilter](#imagefilter "封装了对图片按照指定效果过滤的功能") [photoBrowser](#photobrowser "图片浏览器") [ble](#ble "蓝牙4.0模块") [pedometer](#pedometer "手机计步器模块") [aMap](#amap "高德地图模块") [bMap](#bmap "百度地图模块") 
 
 
 ## UIInput
