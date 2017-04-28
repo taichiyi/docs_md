@@ -274,5 +274,6 @@ $ git config --global alias.pom 'push origin master'
 
 
 ## 参考链接
+[https://git-scm.com/docs/](https://git-scm.com/docs/)  
 [http://stormzhang.com/github/2016/06/16/learn-github-from-zero5/](http://stormzhang.com/github/2016/06/16/learn-github-from-zero5/)  
 [http://www.ruanyifeng.com/blog/2014/06/git_remote.html](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)  
