@@ -40,7 +40,7 @@
 
  - 冯彬 / 男 / 1993 
  - 本科 / 河南工业大学 管理学院
- - 工作年限：1.7年 (APICloud经验1.2年)
+ - 工作年限：1.6年 (APICloud经验1.2年)
  - 技术博客：[http://taichiyi.com](http://taichiyi.com)  
  - GitHub：https://github.com/taichiyi
  - APICloud论坛：http://community.apicloud.com/bbs/home.php?mod=space&uid=103910
@@ -53,7 +53,7 @@
 
 # 工作经历
 
-## 郑州格致网络科技有限公司 （ 2015/10 ~ 2017/06 ）
+## 郑州格致网络科技有限公司 （ 2015/10 ~ 2017/05 ）
 
 ### 橡树新能源 
 
