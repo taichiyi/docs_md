@@ -62,6 +62,11 @@
  - 我负责前端全部的工作
  - 完成80%用了50天
 
+#### 下载地址
+ - 安卓  
+ http://downloadpkg.apicloud.com/app/download?path=http://7yel3q.com1.z0.glb.clouddn.com/36ba9a6756e153e42564c14d904876ec_d  
+ ![qr](http://oop4q34sz.bkt.clouddn.com/xiangshu-app.png)
+
 
 ### 车主管家 
 
@@ -72,6 +77,12 @@
  - 我负责前端90%的工作
  - 90天
 
+#### 下载地址
+ - 安卓  
+ http://downloadpkg.apicloud.com/app/download?path=http://7xyauf.com1.z0.glb.clouddn.com/bbe0004a8b95208cf62f098effb7ba2c_d  
+![qr](http://oop4q34sz.bkt.clouddn.com/chezhu-app.png)
+- ios  
+ 请到app store下载
 
 ### 果鲜生 
 
@@ -87,6 +98,23 @@
  - 小型项目
  - 我负责前端95%的工作
  - 60天
+
+#### 下载地址
+ - 安卓  
+ http://downloadpkg.apicloud.com/app/download?path=http://7xuc10.com1.z0.glb.clouddn.com/bdcdd9d42f81ade86e0e9b24c9bd0ef2_d  
+ ![qr](http://oop4q34sz.bkt.clouddn.com/ibaskball-app.png)
+
+### 职乐 
+
+ - APP
+ - 小型项目
+ - 我负责前端60%的工作
+ - 55天
+
+#### 下载地址
+ - 安卓  
+ http://downloadpkg.apicloud.com/app/download?path=http://7xs1ka.com1.z0.glb.clouddn.com/0856417d7ec0cb29ca0195abb365d204_d  
+ ![qr](http://oop4q34sz.bkt.clouddn.com/zhile-app.png)
 
 
 ### 无涯 
