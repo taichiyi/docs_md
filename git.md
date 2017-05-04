@@ -2,7 +2,7 @@
 
 # git
 
-[clone](#clone) [remote](#remote) [fetch](#fetch) [pull](#pull) [push](#push) [config](#config)
+[clone](#user-content-clone) [remote](#user-content-remote) [fetch](#user-content-fetch) [pull](#user-content-pull) [push](#user-content-push) [config](#user-content-config)
 
 ![pic](http://oop4q34sz.bkt.clouddn.com/bg2014061202.jpg)
 
@@ -206,6 +206,10 @@ $ git push --force origin
 
 配置 git
 
+所有的命令都存在三个配置级别：system(系统级), global(全局级), local(局部级)。可以通过指定一个参数：--system,--global,--local 来指定是对哪一级别的设置
+
+配置信息的优先级: local > global > system
+
 ### 语法
 ```Bash
 git config [<file-option>] [type] [--show-origin] [-z|--null] name [value [value_regex]]
@@ -227,31 +231,70 @@ git config [<file-option>] -e | --edit
 
 ### 实例
 
+查看配置信息
+
+```Bash
+# 查看所有配置信息
+$ git config --list
+# 等同于
+$ git config -l
+
+# 系统级(mac下此配置文件默认是没有的)
+$ git config --system -l
+
+# 全局级
+$ git config --global -l
+
+# 局部级
+$ git config --local -l
+```
+
+查看-某个配置项
+
+```Bash
+# 查看username
+$ git config user.name
+
+# 查看email
+$ git config user.email
+```
+
+添加-配置项
+
+```Bash
+$ git config --global user.name "taichiyi"
+$ git config --global user.email "taichiyi@foxmail.com"
+```
+
+编辑-配置
+
+```Bash
+git config --global -e
+```
+
+#### alias
+
 我们知道我们执行的一些Git命令其实操作很频繁的类似有：
 
-```
-git status
-git add
-git commit
-git push
-git checkout
-git branch
-```
+> git status
+> git add
+> git commit
+> git push
+> git checkout
+> git branch
 
 这些操作非常频繁，每次都要输入完全是不是有点麻烦，有没有一种简单的缩写输入呢？完整输入 => 缩写输入：
 
-```
-git status      =>    git s
-git add         =>    git a
-git commit      =>    git c
-git push        =>    git p
-git checkout    =>    git co
-git branch      =>    git br
-```
+> git status      =>    git s
+> git add         =>    git a
+> git commit      =>    git c
+> git push        =>    git p
+> git checkout    =>    git co
+> git branch      =>    git br
 
 对应配置如下:
 
-```
+```Bash
 $ git config --global alias.s status
 $ git config --global alias.a add
 $ git config --global alias.c commit
@@ -262,14 +305,18 @@ $ git config --global alias.br branch
 
 当然以上别名不是固定的，你完全可以根据自己的习惯去定制，除此之外还可以设置组合，比如：
 
-```
-git push origin master  =>  git pom
-```
+> git push origin master  =>  git pom
 
 对应配置如下:
 
-```
+```Bash
 $ git config --global alias.pom 'push origin master'
+```
+
+删除别名
+
+```Bash
+$ git config --global --unset alias.pom
 ```
 
 
@@ -288,51 +335,11 @@ git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [-
 
 ### 实例
 
-我们知道我们执行的一些Git命令其实操作很频繁的类似有：
+添加所有文件
 
+```Bash
+$ git add .
 ```
-git status
-git add
-git commit
-git push
-git checkout
-git branch
-```
-
-这些操作非常频繁，每次都要输入完全是不是有点麻烦，有没有一种简单的缩写输入呢？完整输入 => 缩写输入：
-
-```
-git status      =>    git s
-git add         =>    git a
-git commit      =>    git c
-git push        =>    git p
-git checkout    =>    git co
-git branch      =>    git br
-```
-
-对应配置如下:
-
-```
-$ git add --global alias.s status
-$ git add --global alias.a add
-$ git add --global alias.c commit
-$ git add --global alias.p push
-$ git add --global alias.co checkout
-$ git add --global alias.br branch
-```
-
-当然以上别名不是固定的，你完全可以根据自己的习惯去定制，除此之外还可以设置组合，比如：
-
-```
-git push origin master  =>  git pom
-```
-
-对应配置如下:
-
-```
-$ git add --global alias.pom 'push origin master'
-```
-
 
 ## 参考链接
 [https://git-scm.com/docs/](https://git-scm.com/docs/)  
