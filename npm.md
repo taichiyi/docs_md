@@ -4,7 +4,7 @@
 
 [init](#init) [install](#install)  [update](#update) 
 
-
+ 
 ## init
 
 在当前文件夹创建一个package.json文件
