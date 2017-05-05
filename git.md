@@ -2,7 +2,7 @@
 
 # git
 
-[clone](#user-content-clone) [remote](#user-content-remote) [fetch](#user-content-fetch) [pull](#user-content-pull) [push](#user-content-push) [config](#user-content-config)
+[clone](#clone) [remote](#remote) [fetch](#fetch) [pull](#pull) [push](#push) [config](#config) [add](#add)
 
 ![pic](http://oop4q34sz.bkt.clouddn.com/bg2014061202.jpg)
 
@@ -339,6 +339,12 @@ git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [-
 
 ```Bash
 $ git add .
+```
+
+只把有变动的文件添加到`index`里(update)
+
+```Bash
+$ git add -u
 ```
 
 ## 参考链接
