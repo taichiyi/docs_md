@@ -45,7 +45,7 @@
  - GitHub：https://github.com/taichiyi
  - APICloud论坛：http://community.apicloud.com/bbs/home.php?mod=space&uid=103910
 
- - 期望职位：APICloud 前端程序员
+ - 期望职位：app前端开发, app混合(Hybrid)开发, web前端
  - 期望城市：深圳
  - 期望薪资：税前月薪8k~1.2k
 
