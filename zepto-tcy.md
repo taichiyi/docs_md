@@ -2,7 +2,7 @@
 # zepto-tcy
 
 
-[pwd](#pwd) [which](#which) [cd](#cd) [ls](#ls) [mkdir](#mkdir) [touch](#touch) [wc](#wc) [cat](#cat) [rm](#rm) [mv](#mv) [cp](#cp)
+[$()](#$()) [append](#append) [before](#before) [prepend](#prepend) [after](#after) [slice](#slice) [get](#get) [size](#size) [remove](#remove) [each](#each) [eq](#eq) [find](#find) [parent](#parent) [children](#children) [prev](#prev) [next](#next) [show](#show) [hide](#hide) [html](#html) [attr](#attr) [removeAttr](#removeAttr) [prop](#prop) [removeProp](#removeProp) [data](#data) [val](#val) [width](#width) [height](#height) [css](#css) [hasClass](#hasClass) [addClass](#addClass) [removeClass](#removeClass) [scrollTop](#scrollTop) [click](#click)
 
 
 ## 简介
