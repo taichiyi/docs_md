@@ -2,7 +2,7 @@
 # zepto-tcy
 
 
-[$()](#$()) [append](#append) [before](#before) [prepend](#prepend) [after](#after) [slice](#slice) [get](#get) [size](#size) [remove](#remove) [each](#each) [eq](#eq) [find](#find) [parent](#parent) [children](#children) [prev](#prev) [next](#next) [show](#show) [hide](#hide) [html](#html) [attr](#attr) [removeAttr](#removeAttr) [prop](#prop) [removeProp](#removeProp) [data](#data) [val](#val) [width](#width) [height](#height) [css](#css) [hasClass](#hasClass) [addClass](#addClass) [removeClass](#removeClass) [scrollTop](#scrollTop) [click](#click)
+[$()](#$()) [append](#append) [before](#before) [prepend](#prepend) [after](#after) [slice](#slice) [get](#get) [size](#size) [remove](#remove) [each](#each) [eq](#eq) [find](#find) [parent](#parent) [children](#children) [prev](#prev) [next](#next) [show](#show) [hide](#hide) [html](#html) [attr](#attr) [removeAttr](#removeattr) [prop](#prop) [removeProp](#removeprop) [data](#data) [val](#val) [width](#width) [height](#height) [css](#css) [hasClass](#hasclass) [addClass](#addclass) [removeClass](#removeclass) [scrollTop](#scrolltop) [click](#click)
 
 
 ## 简介
