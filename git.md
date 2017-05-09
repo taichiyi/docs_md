@@ -24,7 +24,7 @@ git clone [--template=<template_directory>]
 
 ### 实例
 
-<repository\>的种类
+<repository>的种类
 ```
 $ git clone http[s]://example.com/path/to/repo.git/
 $ git clone ssh://example.com/path/to/repo.git/
@@ -52,14 +52,14 @@ git remote add [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|p
 git remote rename <old> <new>
 git remote remove <主机名>
 git remote set-head <主机名> (-a | --auto | -d | --delete | <branch>)
-git remote set-branches [--add] <主机名> <branch>…​
+git remote set-branches [--add] <主机名> <branch>…
 git remote get-url [--push] [--all] <主机名>
 git remote set-url [--push] <主机名> <newurl> [<oldurl>]
 git remote set-url --add [--push] <主机名> <newurl>
 git remote set-url --delete [--push] <主机名> <网址>
-git remote [-v | --verbose] show [-n] <主机名>…​
-git remote prune [-n | --dry-run] <主机名>…​
-git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)…​]
+git remote [-v | --verbose] show [-n] <主机名>…
+git remote prune [-n | --dry-run] <主机名>…
+git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)…]
 ```
 
 ### 实例
