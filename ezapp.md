@@ -63,7 +63,7 @@ animation
 
 - 默认值：
 
-  ```json
+  ```
   {
       type: 'movein', //动画类型（详见动画类型常量）
       subType: 'from_right', //动画子类型（详见动画子类型常量）
@@ -197,7 +197,7 @@ animation
 
 - 默认值：
 
-  ```json
+  ```
   {
       type:"none",                //动画类型（详见动画类型常量）
       subType:"from_right",       //动画子类型（详见动画子类型常量）
@@ -466,9 +466,9 @@ ret:
 - 描述：成功
 - 内部字段：
 
-```json
+```
 {
-  data: '',  // 文件内容
+  data: ''  // 文件内容
 }
 ```
 
