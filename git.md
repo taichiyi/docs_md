@@ -24,7 +24,7 @@ git clone [--template=<template_directory>]
 
 ### 实例
 
-<repository>的种类
+<repository\>的种类
 ```
 $ git clone http[s]://example.com/path/to/repo.git/
 $ git clone ssh://example.com/path/to/repo.git/
