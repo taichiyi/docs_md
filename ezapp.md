@@ -2,7 +2,7 @@
 # ezapp.js
 
 
-[openWin](#openWin) [openFrame](#openFrame) [cache](#cache) [type](#type) [isPC](#isPC) [isIOS](#isIOS) [extend](#extend) [statusBarHeight](#statusBarHeight) [ready](#ready) [loadFile](#loadFile)
+[openWin](#openwin) [openFrame](#openframe) [cache](#cache) [type](#type) [isPC](#ispc) [isIOS](#isios) [extend](#extend) [statusBarHeight](#statusbarheight) [ready](#ready) [loadFile](#loadfile)
 
 
 ## 简介
