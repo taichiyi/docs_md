@@ -2,7 +2,7 @@
 # ezapp.js
 
 
-[$()](#$()) [append](#append) [before](#before) [prepend](#prepend) [after](#after) [slice](#slice) [get](#get) [size](#size) [remove](#remove) [each](#each) [eq](#eq) [find](#find) [parent](#parent) [children](#children) [prev](#prev) [next](#next) [show](#show) [hide](#hide) [html](#html) [attr](#attr) [removeAttr](#removeattr) [prop](#prop) [removeProp](#removeprop) [data](#data) [val](#val) [width](#width) [height](#height) [css](#css) [hasClass](#hasclass) [addClass](#addclass) [removeClass](#removeclass) [scrollTop](#scrolltop) [click](#click)
+[openWin](#openWin) [openFrame](#openFrame) [cache](#cache) [type](#type) [isPC](#isPC) [isIOS](#isIOS) [extend](#extend) [statusBarHeight](#statusBarHeight) [ready](#ready) [loadFile](#loadFile)
 
 
 ## 简介
@@ -400,7 +400,9 @@ return:
 
 ## extend
 
-对象加对象
+对象合并
+
+如果def_params对象和params对象有相同的属性, 则params对象的属性覆盖def_params对象的属性.
 
 Q.extend({def_params}, {params})
 
@@ -408,4 +410,75 @@ def_params:
 
 - 类型：JSON对象
 - 默认值：无
-- 描述：
+- 描述：def_params
+
+params:
+
+- 类型：JSON对象
+- 默认值：无
+- 描述：params
+
+## statusBarHeight
+
+获取沉浸式高度
+
+Q.statusBarHeight()   ⇒ return
+
+return:
+
+- 类型：数字
+- 默认值：无
+- 描述：如果不支持沉浸式返回0; 反之ios返回20, android返回25
+
+## ready
+
+当api对象加载到window全局对象时,调用此函数
+
+Q.ready(function(){})
+
+#### 实例
+
+```javascript
+Q.ready(function() {
+    // api对象已加载
+});
+```
+
+## loadFile
+
+异步加载文件, 如.js, .json, .css
+
+Q.loadFile({params}, callback(ret))
+
+#### params
+
+url:
+
+- 类型：字符串
+- 默认值：无
+- 描述：文件地址
+
+#### callback
+
+ret:
+
+- 类型：JSON对象
+- 描述：成功
+- 内部字段：
+
+```json
+{
+  data: '',  // 文件内容
+}
+```
+
+#### 实例
+
+```javascript
+Q.loadFile({
+    url: '../res/city-data.json'
+}, function(ret, err) {
+    console.log(JSON.stringify(ret));
+});
+```
+
