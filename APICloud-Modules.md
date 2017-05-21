@@ -2,7 +2,7 @@
 
 # APICloud-Modules
 
-一些实用和靠谱的模块
+一些实用和靠谱的模块。
 
 
 [gizWifiSDK](#gizwifisdk "实现了iOS、安卓系统获取当前网络ip地址。") [tyRTC](#tyrtc "可轻松实现点对点音视频通话、多人语音视频通话、IM消息的功能") [gizWifiSDK](#gizwifisdk "机智云gizWifiSDK主要帮助开发者通过sdk接口调用的方式维护用户系统，用户与设备的绑定关系，设备的配置上线以及设备状态的获取和控制指令的发送。") [qiyuSdk](#qiyusdk "网易七鱼 SDK 是客服系统访客端的解决方案，既包含了客服聊天逻辑管理，也提供了聊天界面，开发者可方便的将客服功能集成到自己的 APP 中。") [zhuge](#zhuge "app数据分析工具") [zhiChiSobot](#zhichisobot "智齿客服全面支持桌面网站、移动网站、微信、微博、APP五种接入方式，实现手机用户与企业保持随时随刻沟通的客服工具。") [aMapLBS](#amaplbs "通过使用高德定位 SDK，开发者可以轻松为应用程序实现智能、精准、高效的定位功能。") [paypal](#paypal "paypal封装了 PayPal 支付的 mobileSDK，使用此模块可在应用内接入 PayPal 支付。") [UIListMeeting](#uilistmeeting "一个数据列表控件，列表项水平侧滑可出现控制按钮。") [UIAlbumBrowser](#uialbumbrowser "UIAlbumBrowser") [UIInput](#uiinput "输入框模块，开发者可通过配置相应参数来控制输入框自动获取焦点，并弹出键盘。") [UIListView](#uilistview "可以侧滑滚动的列表模块")  [UIMediaScanner](#uimediascanner "本地媒体资源扫描器") [UIMultiSelector](#uimultiselector "支持多选的选择器") [UISearchBar](#uisearchbar "独立的搜索页面") [UIPullRefresh](#uipullrefresh "下拉刷新模块") [NVTabBar](#nvtabbar "一个底部导航条模块") [FNScanner](#fnscanner "二维码/条形码扫描器") [imageFilter](#imagefilter "封装了对图片按照指定效果过滤的功能") [photoBrowser](#photobrowser "图片浏览器") [ble](#ble "蓝牙4.0模块") [aMap](#amap "高德地图模块") [bMap](#bmap "百度地图模块") [UIChatBox](#uichatbox "聊天输入框模块") [pedometer](#pedometer "手机计步器模块") [UICalendar](#uicalendar "日历选择模块") 
