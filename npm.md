@@ -2,7 +2,7 @@
 
 # npm
 
-[init](#init) [install](#install)  [update](#update) 
+[init](#init) [install](#install)  [uninstall](#uninstall)  [update](#update) 
 
  
 ## init
