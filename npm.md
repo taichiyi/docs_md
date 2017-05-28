@@ -4,7 +4,7 @@
 
 [init](#init) [install](#install)  [uninstall](#uninstall)  [update](#update) 
 
- 
+
 ## init
 
 在当前文件夹创建一个package.json文件
@@ -123,6 +123,35 @@ $ npm update gulp
 $ npm update -g gulp
 ```
 
+## publish
+
+发布一个模块
+
+### 语法
+
+```Bash
+npm publish [<tarball>|<folder>] [--tag <tag>] [--access <public|restricted>]
+
+Publishes '.' if no argument supplied
+Sets tag 'latest' if no --tag specified
+```
+
+### 实例
+
+更新本地安装的`gulp`模块
+
+```
+# 要在相应的package.json所在目录下运行
+$ npm update gulp
+```
+
+更新全局安装的`gulp`模块
+
+```
+$ npm update -g gulp
+```
+
 ## 参考链接
+
 [https://docs.npmjs.com/](https://docs.npmjs.com/)  
 [http://javascript.ruanyifeng.com/nodejs/npm.html](http://javascript.ruanyifeng.com/nodejs/npm.html)  
