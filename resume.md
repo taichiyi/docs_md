@@ -8,9 +8,9 @@
 
 首先，一份好的简历不光说明事实，更通过FAB模式来增强其说服力。
 
- - Feature：是什么
- - Advantage：比别人好在哪些地方
- - Benefit：如果雇佣你，招聘方会得到什么好处 
+- Feature：是什么
+- Advantage：比别人好在哪些地方
+- Benefit：如果雇佣你，招聘方会得到什么好处 
 
 其次，写简历和写议论文不同，过分的论证会显得自夸，反而容易引起反感，所以要点到为止。这里的技巧是，提供论据，把论点留给阅读简历的人自己去得出。放论据要具体，最基本的是要数字化，好的论据要让人印象深刻。
 
@@ -32,22 +32,21 @@
 
 - 手机：18625781323
 - Email：taichiyi@foxmail.com
-- QQ：870108677
 
 ---
 
 # 个人信息
 
- - 冯彬 / 男 / 1993 
- - 本科 / 河南工业大学 管理学院
- - 工作年限：1.6年 (APICloud经验1.2年)
- - 技术博客：[http://taichiyi.com](http://taichiyi.com)  
- - GitHub：https://github.com/taichiyi
- - APICloud论坛：http://community.apicloud.com/bbs/home.php?mod=space&uid=103910
-
- - 期望职位：app前端开发, app混合(Hybrid)开发, web前端
- - 期望城市：深圳
- - 期望薪资：税前月薪6k~1k
+- 冯彬 / 男 / 1993-08-20（23岁） 
+- 本科 / 河南工业大学 管理学院 电子商务
+- 现居住：深圳-宝安区
+- 工作年限：1.6年 (app混合开发经验1.2年)
+- 期望职位：Web前端 移动前端 WebApp hybrid(混合)App 移动H5
+- 期望城市：深圳
+- 期望薪资：税前月薪6k~8k
+- 技术博客：[http://taichiyi.com](http://taichiyi.com)  
+- GitHub：https://github.com/taichiyi
+- APICloud论坛：http://community.apicloud.com/bbs/home.php?mod=space&uid=103910
 
 ---
 
@@ -57,103 +56,103 @@
 
 ### 橡树新能源 
 
- - APP
- - 中小型项目
- - 我负责前端全部的工作
- - 完成80%用了50天
+- 项目描述：
+	- 该项目为橡树新能源有限公司制作手机app。
+	- 通过该APP实现，充电桩的查找，预约充电，还有小社区的功能。
+	- 用户能通过APP中的地图，查看附近的充电桩位置和详情，选择预约充电。
+
+- 职责：完成全部静态页面的编写，和全部的交互。
+
+- 总结：
+	- 这个项目采用了优化过的架构，静态页面完成时间缩短10%。
+	- 开始引进Vue，代码可读性更强，多人维护更方便，修改维护成本显著降低。
 
 #### 下载地址
- - 安卓  
- http://downloadpkg.apicloud.com/app/download?path=http://7yel3q.com1.z0.glb.clouddn.com/36ba9a6756e153e42564c14d904876ec_d  
- ![qr](http://oop4q34sz.bkt.clouddn.com/xiangshu-app.png)
+- 安卓  
+   http://downloadpkg.apicloud.com/app/download?path=http://7yel3q.com1.z0.glb.clouddn.com/36ba9a6756e153e42564c14d904876ec_d  
+    ![qr](http://oop4q34sz.bkt.clouddn.com/xiangshu-app.png)
 
 
 ### 车主管家 
 
 用户端:
 
- - APP
- - 中型项目
- - 我负责前端90%的工作
- - 90天
+- 项目描述：
+	- 该项目为南菱汽车有限公司的项目，项目总价十多万元。
+	- 项目分为2个端，用户端和顾问端
+	1. 车主通过app可以实现汽车保养、维修的预约和下单。
+	2. 车主可以和4s店的客服即时聊天。
+	3. 可以在线咨询相关业务的工程师。4.可以违章代办，一键救援。
+
+- 职责：完成全部静态页面的编写，和全部的交互。
+
+- 总结：
+	- 这个项目采用了优化过的框架，页面切换过程更加流畅。
+	- 优化了模板引擎，和使用方法。
+
 
 #### 下载地址
- - 安卓  
- http://downloadpkg.apicloud.com/app/download?path=http://7xyauf.com1.z0.glb.clouddn.com/bbe0004a8b95208cf62f098effb7ba2c_d  
-![qr](http://oop4q34sz.bkt.clouddn.com/chezhu-app.png)
+- 安卓  
+   http://downloadpkg.apicloud.com/app/download?path=http://7xyauf.com1.z0.glb.clouddn.com/bbe0004a8b95208cf62f098effb7ba2c_d  
+   ![qr](http://oop4q34sz.bkt.clouddn.com/chezhu-app.png)
 - ios  
- 请到app store下载
-
-### 果鲜生 
-
- - APP
- - 中小型项目
- - 我负责前端40%的工作
- - 80天
+   请在App Store中搜索“车主管家-您爱车的贴身管家”
 
 
 ### i篮球 
 
- - APP
- - 小型项目
- - 我负责前端95%的工作
- - 60天
+- 项目描述：
+	- app找球场
+	- 组队打球
+	- 篮球小社区
+- 职责：完成全部静态页面的编写，和全部的交互。
 
 #### 下载地址
- - 安卓  
- http://downloadpkg.apicloud.com/app/download?path=http://7xuc10.com1.z0.glb.clouddn.com/bdcdd9d42f81ade86e0e9b24c9bd0ef2_d  
- ![qr](http://oop4q34sz.bkt.clouddn.com/ibaskball-app.png)
+- 安卓  
+   http://downloadpkg.apicloud.com/app/download?path=http://7xuc10.com1.z0.glb.clouddn.com/bdcdd9d42f81ade86e0e9b24c9bd0ef2_d  
+    ![qr](http://oop4q34sz.bkt.clouddn.com/ibaskball-app.png)
 
 ### 职乐 
 
- - APP
- - 小型项目
- - 我负责前端60%的工作
- - 55天
+- APP
+- 小型项目
+- 我负责前端60%的工作
+- 55天
 
 #### 下载地址
- - 安卓  
- http://downloadpkg.apicloud.com/app/download?path=http://7xs1ka.com1.z0.glb.clouddn.com/0856417d7ec0cb29ca0195abb365d204_d  
- ![qr](http://oop4q34sz.bkt.clouddn.com/zhile-app.png)
-
-
-### 无涯 
-
- - APP
- - 中型项目
- - 我负责前端70%的工作
- - 60天
+- 安卓  
+   http://downloadpkg.apicloud.com/app/download?path=http://7xs1ka.com1.z0.glb.clouddn.com/0856417d7ec0cb29ca0195abb365d204_d  
+    ![qr](http://oop4q34sz.bkt.clouddn.com/zhile-app.png)
 
 
 ### 材料学院网站 
 
- - 网站 http://mse.haut.edu.cn/
- - 小型项目
- - 我负责全部工作(除设计外)
+- 网站 http://mse.haut.edu.cn/
+- 小型项目
+- 我负责全部工作(除设计外)
 
 
 ### 感恩之旅网站 
 
- - 网站 http://www.gezl.org/
- - 小型项目
- - 我负责全部工作
+- 网站 http://www.gezl.org/
+- 小型项目
+- 我负责全部工作
 
- 
-<!-- #### 我和格致公司
- - 格致是我同班同学和他几个朋友在15年初创的一个公司
- - 我是大四下学期(2015/10)开始来格致工作的
- - 我是独生子, 我家人希望我离家近一点工作(我家是海南海口的), 我们折中选择了深圳
- -->
 
 ---
 
 # 自我评价
- - 自学能力强
-    - 我的编程技能, 都是自学而来的, 没有上过培训班, 没有人带
-    - 有一定看英文文档的能力
- - 自制力强
- 	- 大学四年里, 基本上每天都是6:30起床
-
-
-# 致谢
-感谢您花时间阅读我的简历，期待能有机会和您共事。
+- 社会简历：
+  - 基本每天7：30到公司（上班时间9点），从没迟到。每天工作时间11-13个小时
+  - 总能提前完成任务，并寻找更佳的解决方案。
+  - 能根据公司的业务方向，自学技能完成产品。
+  - 跟同事关系融洽。
+- 学生简历：
+  - 2015年6月，团队一行8人历时1个月从北京骑车至漠河
+  - 参加“感恩之旅”支教团队，去贵州支教助学一个月。
+  - 自学编程，完成“感恩之旅”官方网站和微信公众号
+  - 有每天读书的习惯
+- 自我评价：
+  - 有原则
+  - 有追求
+  - 重感情
