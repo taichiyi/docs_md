@@ -1,6 +1,6 @@
 ![logo](http://oop4q34sz.bkt.clouddn.com/npm.png)
 
-# npm
+# npm (node package manager)
 
 [init](#init) [install](#install)  [uninstall](#uninstall)  [update](#update) 
 
