@@ -1,7 +1,7 @@
 
 # nvm(Node Version Manager)
 
-[install](#install) [ls](#ls) [ls-remote](#ls-remote) [current](#current) [reinstall-packages](#reinstall-packages) [uninstall](#uninstall) [update](#update) 
+[install](#install) [use](#use) [ls](#ls) [ls-remote](#ls-remote) [current](#current) [reinstall-packages](#reinstall-packages) [uninstall](#uninstall) [update](#update) 
 
 
 ## install
