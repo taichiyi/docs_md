@@ -30,6 +30,21 @@ $ nvm install stable
 $ nvm install 4.4
 ```
 
+## use
+
+切换指定的版本
+
+### 语法
+```Bash
+nvm use <version>
+```
+
+### 实例
+
+```
+$ nvm use 8.0.0
+```
+
 ## ls
 
 列出所有已安装版本
