@@ -138,17 +138,10 @@ Sets tag 'latest' if no --tag specified
 
 ### 实例
 
-更新本地安装的`gulp`模块
+运行前，请确认当前目录的package.json
 
 ```
-# 要在相应的package.json所在目录下运行
-$ npm update gulp
-```
-
-更新全局安装的`gulp`模块
-
-```
-$ npm update -g gulp
+$ npm publish
 ```
 
 ## 参考链接
