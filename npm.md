@@ -2,7 +2,7 @@
 
 # npm (node package manager)
 
-[init](#init) [install](#install)  [uninstall](#uninstall)  [update](#update) 
+[init](#init) [install](#install)  [uninstall](#uninstall)  [update](#update)  [config](#config) 
 
 
 ## init
@@ -142,6 +142,56 @@ Sets tag 'latest' if no --tag specified
 
 ```
 $ npm publish
+```
+
+## config
+
+查看或修改配置信息
+
+### 语法
+
+```Bash
+npm config set <key> <value> [-g|--global]
+npm config get <key>
+npm config delete <key>
+npm config list
+npm config edit
+npm get <key>
+npm set <key> <value> [-g|--global]
+
+aliases: c
+```
+
+### 实例
+
+查看name属性
+
+```
+$ npm config get name
+```
+
+查看registry属性
+
+```
+$ npm config get registry
+```
+
+设置registry属性
+
+```
+$ npm config set registry https://registry.npm.taobao.org
+```
+
+设置，使用npm init时，生成的package.json文件的name字段的默认值为'taichiyi'。
+
+```
+$ npm config set init.author.name taichiyi
+```
+
+查看配置列表
+
+```
+$ npm config ls
 ```
 
 ## 参考链接

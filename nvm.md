@@ -177,4 +177,3 @@ $ nvm update -g gulp
 ## 参考链接
 
 [https://docs.nvmjs.com/](https://docs.nvmjs.com/)  
-[http://javascript.ruanyifeng.com/nodejs/nvm.html](http://javascript.ruanyifeng.com/nodejs/nvm.html)  
