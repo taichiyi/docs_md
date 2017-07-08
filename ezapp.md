@@ -402,7 +402,7 @@ return:
 
 对象合并
 
-如果def_params对象和params对象有相同的属性, 则params对象的属性覆盖def_params对象的属性.
+如果def_params对象和params对象有相同的属性, 则params对象的属性覆盖def_params对象的属性。支持多维对象
 
 Q.extend({def_params}, {params})
 
