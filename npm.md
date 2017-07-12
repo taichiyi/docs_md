@@ -2,7 +2,7 @@
 
 # npm (node package manager)
 
-[init](#init) [install](#install)  [uninstall](#uninstall)  [update](#update)  [config](#config) 
+[init](#init) [install](#install) [uninstall](#uninstall) [update](#update) [publish](#publish) [config](#config) 
 
 
 ## init
