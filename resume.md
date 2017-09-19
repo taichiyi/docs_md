@@ -43,7 +43,7 @@
 - 工作年限：2年 (app混合开发经验1.6年)
 - 期望职位：IOS开发 Android开发 hybrid(混合)App
 - 期望城市：深圳
-- 期望薪资：税前月薪12k
+- 期望薪资：税前月薪10k-15k
 - 技术博客：[http://taichiyi.com](http://taichiyi.com)  
 <!-- - GitHub：https://github.com/taichiyi -->
 - APICloud论坛：http://community.apicloud.com/bbs/home.php?mod=space&uid=103910
