@@ -41,11 +41,11 @@
 - 本科 / 河南工业大学 管理学院 电子商务
 - 现居住：深圳-龙岗区
 - 工作年限：2年 (app混合开发经验1.6年)
-- 期望职位：IOS开发 Android开发 hybrid(混合)App
+- 期望职位：hybrid(混合)App Web前端 移动前端 WebApp
 - 期望城市：深圳
-- 期望薪资：税前月薪10k-15k
-- 技术博客：[http://taichiyi.com](http://taichiyi.com)  
-<!-- - GitHub：https://github.com/taichiyi -->
+- 期望薪资：税前月薪8k-12k
+<!-- - 技术博客：[http://taichiyi.com](http://taichiyi.com) -->
+- GitHub：https://github.com/taichiyi 
 - APICloud论坛：http://community.apicloud.com/bbs/home.php?mod=space&uid=103910
 
 ---
@@ -61,6 +61,7 @@
   - “微商”可以通过APP把已关注的供应商的商品加入到自己的店铺，可以轻松把商品分享到QQ和微信好友及朋友圈。
   可以进行商品管理、订单管理、资金管理、查看数据统计
   - 34天，该项目从开发到上线只用了34天的时间！
+  - App Store和应用宝均可下载
 
 - 职责：全部工作
 
@@ -84,6 +85,7 @@
   - 该APP可以方便“珠宝供应商”进行商品发布、微商管理、商品管理、订单管理、销售数据统计。
   - 同时也可以把自己的商品一键分享到朋友圈。
   - 45天，该项目从开发到上线只用了45天的时间！
+  - App Store和应用宝均可下载
 
 - 职责：全部工作
 
